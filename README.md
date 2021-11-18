@@ -13,7 +13,7 @@ Built this portfolio site from scratch to showcase my early CSS and HTML skills.
 
 ### Visuals
 
-![Screenshot of Site](assets/images/Screenshot1.png)
+![Screenshot of Site](assets/images/Portfolio.png)
 
 ### Usage
 
