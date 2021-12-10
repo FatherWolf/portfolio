@@ -9,7 +9,7 @@
 
 ### Description
 
-Built this portfolio site from scratch to showcase my early CSS and HTML skills. This project shows differnt aspects of things ive worked on and things i have done in this class so far.
+Built this portfolio site from scratch to showcase my early CSS and HTML skills. This project shows different aspects of things ive worked on and things i have done in this class so far.
 
 ### Visuals
 

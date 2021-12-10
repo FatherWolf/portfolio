@@ -21,3 +21,43 @@ html,
   max-height: 400px;
   max-width: 100%;
 }
+
+#space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  border-top: 5px solid black;
+}
+
+body {
+  background: linear-gradient(to top, #36454f, #ececec);
+  padding: 0 0 20px 0;
+}
+
+h3 {
+  color: #ececec;
+}
+
+.custom > a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+.custom > a:hover {
+  color: #aec6cf;
+}
+
+.btn-info {
+  background-color: #36454f !important;
+  border-color: #ececec !important;
+}
+
+.figure-caption {
+  color: #ececec !important;
+}
+
+.h4 {
+  color: #ececec;
+}
