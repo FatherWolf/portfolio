@@ -1,82 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="reset" href="assets/reset.css" />
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <h1>Austin Engle</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact Me</a>
-        <a href="#resume">Resume</a>
-      </nav>
-    </header>
-    <section>
-      <img
-        class="profile"
-        src="assets/images/IMG_3791.jpg"
-        alt="Picture of me "
-      />
-    </section>
-    <section>
-      <article>
-        <h2 id="about">About Me</h2>
-        <p>
-          I am working to become a full stack developer. I have worked as a
-          system admin for several years and want to break into the software
-          side of things. I find all things tech interesting and hope to have a
-          great career in this field.
-        </p>
-      </article>
-      <article class="float-left">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="reset" href="assets/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand">Austin Engle Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#about">About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#resume">Resume</a>
+          <a class="nav-link" href="#work">Work</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <img id="pic" src="assets/images/IMG_3791.jpg" class="rounded mx-auto d-block img-thumbnail" alt="My Profile Pic">
+  <section class="container p-3">
+    <article class="card p-2">
+      <h2 id="about">About Me</h2>
+      <p>
+        I am working to become a full stack developer. I have worked as a
+        system admin for several years and want to break into the software
+        side of things. I find all things tech interesting and hope to have a
+        great career in this field.
+      </p>
+    </article>
+  </section>
+  <section class="container-lg p-3">
+    <article class="row ">
+      <div class="col">
         <h2 id="resume">Resume</h2>
-        <a
-          href="https://drive.google.com/file/d/1UoSg0M9rOmx-Ed27TgNhhbO8c36iGM5B/view?usp=sharing"
-          >Click for Resume</a
-        >
-      </article>
-    </section>
-    <section>
-      <article>
-        <h2 id="work">Work</h2>
-       <div class="center-text">Click Image to view Seo Project</div> 
-       <a
-          href="https://fatherwolf.github.io/seo-refactor-project/">
-        <img
-          src="assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg"
-          alt="SEO Project">
-          </a>
-          
-       
-      <article>
-        <img
-          src="assets/images/markus-spiske-iar-afB0QQw-unsplash.jpg"
-          alt="Coming Soon"
-        />
+        <a href="https://drive.google.com/file/d/1UoSg0M9rOmx-Ed27TgNhhbO8c36iGM5B/view?usp=sharing"
+          class="btn btn-danger" role="button">Show Resume</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="container-lg p-3">
+    <article>
+      <h2 id="work">Work</h2>
+      <div class="center-text">Click Image to view Seo Project</div>
+      <div class="row">
+        <article class="col p-3">
+          <a href="https://fatherwolf.github.io/seo-refactor-project/">
+            <img src="assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg" id="large-img" class="img-fluid img-thumbnail"
+              alt="SEO Project">
+        </article>
+      </div>
+    </article>
+  </section>
+
+  <section class="container-lg p-3">
+    <article class="row row-col-1 row-col-sm-2 row-col-md-3">
+
+
+      <article class="col">
+        <img src="assets/images/markus-spiske-iar-afB0QQw-unsplash.jpg" class="rounded small-img" alt="Coming Soon" />
       </article>
 
-      <article>
-        <img
-          src="assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg"
-          alt="Coming Soon"
-        />
+      <article class="col">
+        <img src="assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" class="rounded small-img" alt="Coming Soon" />
       </article>
-    </section>
-    <section>
-      <article class="float-left">
+
+    </article>
+  </section>
+
+  <section class="container-lg">
+    <article class="row">
+      <div class="col">
         <h2 id="contact">Contact Me:</h2>
         <a href="704-998-9799">704-998-8799</a>
         <a href="austinengle13@gmail.com">austinengle13@gmail.com</a>
         <a href="https://github.com/FatherWolf">GitHub</a>
-      </article>
-    </section>
-  </body>
+      </div>
+    </article>
+  </section>
+</body>
+
 </html>
