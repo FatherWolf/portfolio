@@ -61,3 +61,7 @@ h3 {
 .h4 {
   color: #ececec;
 }
+
+.imgmd{
+  max-height: 500px !important;
+}
